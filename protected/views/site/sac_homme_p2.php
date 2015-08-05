@@ -3,16 +3,16 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/franky1.jpg" width="100%" />
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/franky1.jpg" width="100%" />
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/franky2.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/franky2.jpg" width="100%"/>
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/franky3.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/franky3.jpg" width="100%"/>
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/franky4.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/franky4.jpg" width="100%"/>
             </div>
             
         </div>
@@ -28,7 +28,9 @@
         </ul>
         <div class="con1">
             <ul>    
-                <li>Franky 黑色泡泡羔羊皮包是一款细腻又犀利的设计作品，可以有两种背挎方式，全部展开可以容纳工作文件夹，折叠起来又便于您骑自行车或是繁忙都市里穿行。这只包包专为都市旅行家和说走就走的专业人士打造。其特点包括一根可调节肩带和一根皮制小抓柄，您既可以手拎或是折叠起来成为信使包样挎在肩上。</li>
+                <li>
+                    Franky 黑色泡泡羔羊皮包是一款细腻又犀利的设计作品，可以有两种背挎方式，全部展开可以容纳工作文件夹，折叠起来又便于您骑自行车或是繁忙都市里穿行。这只包包专为都市旅行家和说走就走的专业人士打造。其特点包括一根可调节肩带和一根皮制小抓柄，您既可以手拎或是折叠起来成为信使包样挎在肩上。
+                </li>
             </ul>
         </div>
         <div class="con2">

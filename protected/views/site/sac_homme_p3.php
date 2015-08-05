@@ -3,16 +3,16 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/jason1.jpg" width="100%" />
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/jason1.jpg" width="100%" />
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/jason2.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/jason2.jpg" width="100%"/>
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/jason3.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/jason3.jpg" width="100%"/>
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/jason4.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/jason4.jpg" width="100%"/>
             </div>
             
         </div>
@@ -28,7 +28,9 @@
         </ul>
         <div class="con1">
             <ul>    
-                <li>Jason 黑色泡泡羔羊皮包是一款精致的休闲托特包，流露悠闲的轻松风格。低调不张扬，他永远守候在您身边。两根大型抓柄让您轻松拎起或是挎在肩上。这款包最大的特点是中间的隔间和多个大型口袋，精致又实用。 </li>
+                <li>
+                    Jason 黑色泡泡羔羊皮包是一款精致的休闲托特包，流露悠闲的轻松风格。低调不张扬，他永远守候在您身边。两根大型抓柄让您轻松拎起或是挎在肩上。这款包最大的特点是中间的隔间和多个大型口袋，精致又实用。  
+                </li>
             </ul>
         </div>
         <div class="con2">

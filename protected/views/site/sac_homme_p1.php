@@ -3,16 +3,16 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/dimitri1.jpg" width="100%" />
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/dimitri1.jpg" width="100%" />
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/dimitri2.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/dimitri2.jpg" width="100%"/>
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/dimitri3.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/dimitri3.jpg" width="100%"/>
             </div>
             <div class="swiper-slide">
-                <img src="images/sac_homme_pro/dimitri4.jpg" width="100%"/>
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme_pro/dimitri4.jpg" width="100%"/>
             </div>
             
         </div>
@@ -28,12 +28,16 @@
         </ul>
         <div class="con1">
             <ul>    
-                <li>Mario黑色泡泡羔羊皮包是一款全新的背包式手袋，大量的流苏设计流露波西米亚的灵魂。Mario 每天都散发酷我的生活态度。 </li>
+                <li>
+                    Mario黑色泡泡羔羊皮包是一款全新的背包式手袋，大量的流苏设计流露波西米亚的灵魂。Mario 每天都散发酷我的生活态度。<br/>
+                    用途：中型尺寸让他成为理想的旅行伴侣，全天候贴心为您服务。 <br/>
+                    亮点： 手提、肩背或斜跨随意转换，这种随心所欲的波西米亚精神无论是居家、节庆或是艺术展览的开幕典礼都必不可少。
+                </li>
             </ul>
         </div>
         <div class="con2">
             <ul>    
-                <li>用途：中型尺寸让他成为理想的旅行伴侣，全天候贴心为您服务。 <br/>亮点： 手提、肩背或斜跨随意转换，这种随心所欲的波西米亚精神无论是居家、节庆或是艺术展览的开幕典礼都必不可少。 </li>
+                <li>ss</li>
             </ul>  
         </div>
     </div>

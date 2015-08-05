@@ -63,6 +63,62 @@ class SiteController extends Controller
 	public function actionSac_homme_p3(){
 		$this->render('sac_homme_p3');
 	}
+	public function actionSac_homme_p4(){
+		$this->render('sac_homme_p4');
+	}
+	public function actionSac_homme_p5(){
+		$this->render('sac_homme_p5');
+	}
+	public function actionSac_homme_p6(){
+		$this->render('sac_homme_p6');
+	}
+	public function actionSac_homme_p7(){
+		$this->render('sac_homme_p7');
+	}
+	public function actionSac_femme_p1(){
+		$this->render('sac_femme_p1');
+	}
+	public function actionSac_femme_p2(){
+		$this->render('sac_femme_p2');
+	}
+	public function actionSac_femme_p3(){
+		$this->render('sac_femme_p3');
+	}
+	public function actionSac_femme_p4(){
+		$this->render('sac_femme_p4');
+	}
+	public function actionSac_femme_p5(){
+		$this->render('sac_femme_p5');
+	}
+	public function actionSac_femme_p6(){
+		$this->render('sac_femme_p6');
+	}
+	public function actionSac_femme_p7(){
+		$this->render('sac_femme_p7');
+	}
+	public function actionSac_femme_p8(){
+		$this->render('sac_femme_p8');
+	}
+	public function actionSac_femme_p9(){
+		$this->render('sac_femme_p9');
+	}
+	public function actionSac_femme_p10(){
+		$this->render('sac_femme_p10');
+	}
+	public function actionAccessories_p1(){
+		$this->render('accessories_p1');
+	}
+	public function actionAccessories_p2(){
+		$this->render('accessories_p2');
+	}
+	public function actionAccessories_p3(){
+		$this->render('accessories_p3');
+	}
+	public function actionAccessories_p4(){
+		$this->render('accessories_p4');
+	}
+	
+
 
 
 	public function actionStore($id)
