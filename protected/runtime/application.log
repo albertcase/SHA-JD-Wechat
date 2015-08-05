@@ -7358,3 +7358,23 @@ REQUEST_URI=/site/js/jquery.js
 HTTP_REFERER=http://192.168.8.110:9030/site/index
 >>>>>>> c9f71650e0483c0940e5db04a5c5df8836ed9b15
 ---
+2015/08/05 11:28:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "blog.html" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('blog.html')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('blog.html')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blog.html')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/blog.html
+---
+2015/08/05 12:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "cam" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('cam')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('cam')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/cam')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/cam
+---

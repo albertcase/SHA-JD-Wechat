@@ -12,22 +12,58 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 
-	public function actionSpring()
+	public function actionAccesoires()
 	{
-		$this->render('spring');
+		$this->render('accesoires');
 	}
 
-	public function actionProduct(){
-		$this->render('product');
+	public function actionBlog1(){
+		$this->render('blog1');
+	}
+	public function actionBlog2(){
+		$this->render('blog2');
+	}
+	public function actionBlog3(){
+		$this->render('blog3');
 	}
 
-	public function actionFounder(){
-		$this->render('founder');
+	public function actionCampagne(){
+		$this->render('campagne');
 	}
 
-	public function actionHistory(){
-		$this->render('history');
+	public function actionChaussures(){
+		$this->render('chaussures');
 	}
+
+	public function actionCommitment(){
+		$this->render('commitment');
+	}
+
+	public function actionFaq(){
+		$this->render('faq');
+	}
+	public function actionJD(){
+		$this->render('JD');
+	}
+	public function actionMaterials(){
+		$this->render('materials');
+	}
+	public function actionSac_femme(){
+		$this->render('sac_femme');
+	}
+	public function actionSac_homme(){
+		$this->render('sac_homme');
+	}
+	public function actionSac_homme_p1(){
+		$this->render('sac_homme_p1');
+	}
+	public function actionSac_homme_p2(){
+		$this->render('sac_homme_p2');
+	}
+	public function actionSac_homme_p3(){
+		$this->render('sac_homme_p3');
+	}
+
 
 	public function actionStore($id)
 	{
