@@ -9,6 +9,6 @@
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/JD/JD2.jpg" width="100%" />
   <p class="advantage img_space">红遍全球</p>
   <p class="adv_content">Jérôme Dreyfuss的手袋受到全世界最会着装女明星的加持，其中包括朱利安·摩尔、凯拉·奈特莉、萨拉·杰西卡·帕克、黛安·克鲁格以及杰西卡·贝尔。但是对于Jérôme而言，能在街头发现穿戴其设计作品的潮人远比明星的加持重要。那么究竟是什么让Jérôme Dreyfuss的设计能够脱颖而出？“我只做自己喜欢做的事情。”他说。“我勤勤恳恳地工作。我不盲从潮流。我从朋友和街头遇见的时尚女性那里获得灵感。” 今天，Jérôme的配饰在全球300多个零售点销售，其中包括伦敦的Liberty、Harrods和Matches百货，纽约与洛杉矶的Barneys和Saks百货，上海的Maria Luisa，东京的伊势丹百货、以及巴黎的春天百货、老佛爷百货、乐蓬马歇百货……他在巴黎拥有三间独立店铺——两间女装店和一间男装店，在韩国持续受到追捧并拥有十一间“店中店”和一间旗舰店，在纽约还有一间旗舰店。</p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/JD/JD3.jpg" width="100%" />
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/JD/JD3.jpg" width="100%" style="margin:0 0 2em 0"/>
 
 </div>  
