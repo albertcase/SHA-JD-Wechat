@@ -111,8 +111,9 @@ html,body{
   left:0;
   text-align: center;
 }
-.homme a:visited{
+.homme a:link,.homme a:visited,.homme a:hover {
   color:#000;
+  text-decoration: none;
 }
 .title{
   font-size: 2em;
@@ -137,6 +138,17 @@ html,body{
 }
 .line{
   border:1px solid #000;
+}
+/* femme */
+.pro_page a:link,.pro_page a:visited,.pro_page a:hover {
+  color:#000;
+  text-decoration: none;
+}
+
+/* accesoires */
+.accesoires a:link,.accesoires a:visited,.accesoires a:hover {
+  color:#000;
+  text-decoration: none;
 }
 
 /* materials */

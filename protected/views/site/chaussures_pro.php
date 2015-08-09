@@ -1,4 +1,3 @@
-
 <div class="product">
     <h1 class="pro_line"></h1>
     <div class="swiper-container">
