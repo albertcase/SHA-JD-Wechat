@@ -117,6 +117,9 @@ class SiteController extends Controller
 	public function actionAccessories_p4(){
 		$this->render('accessories_p4');
 	}
+	public function actionChaussures_pro(){
+		$this->render('chaussures_pro');
+	}
 	
 
 

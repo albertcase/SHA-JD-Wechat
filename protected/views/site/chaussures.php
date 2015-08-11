@@ -1,6 +1,8 @@
 <div class="homme">
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures/chaussures1.jpg" />
-    <p class="title">BEA</p>
+    <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/chaussures_pro">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures/chaussures1.jpg" />
+        <p class="title">BEA</p>
+    </a>
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures/chaussures2.jpg" />
     <p class="title">BIBOOTS</p>
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures/chaussures3.jpg" />

@@ -111,8 +111,9 @@ html,body{
   left:0;
   text-align: center;
 }
-.homme a:visited{
+.homme a:link,.homme a:visited,.homme a:hover {
   color:#000;
+  text-decoration: none;
 }
 .title{
   font-size: 2em;
@@ -123,20 +124,22 @@ html,body{
   content:url("../../images/line.jpg"); 
   padding: 0 1em;
 }
-.price{
-  font-size: 1.8em;
-  font-weight: bold;
-  margin: 0 0 2em 0;
-}
+
 .pro_img{
   position: relative;
   margin:10% 0 0 0;
 }
-.pro_page{
-  height:600px;
+
+/* femme */
+.femme a:link,.femme a:visited,.femme a:hover {
+  color:#000;
+  text-decoration: none;
 }
-.line{
-  border:1px solid #000;
+
+/* accesoires */
+.accesoires a:link,.accesoires a:visited,.accesoires a:hover {
+  color:#000;
+  text-decoration: none;
 }
 
 /* materials */
@@ -215,10 +218,17 @@ html,body{
 .blog_content{
   width:90%;
   font-size: 1.8em;
-  font-weight: bold;
   margin: 2em 5%;
   text-align: left;
 }
+.italic{
+  font-style: italic;
+}
+.bigger{
+  font-weight: bold;
+}
+
+/* faq */
 .faq{
   width:100%;
   position: absolute;
@@ -315,4 +325,13 @@ html,body{
   line-height:180%;
   color:#000;
   text-align: left;
+}
+
+/* campagne */
+.campagne .swiper-container{
+  width:90%;
+}
+.campagne .swiper-slide{
+  position: relative;
+  margin:50% 0 5em 0;
 }

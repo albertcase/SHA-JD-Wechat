@@ -1,4 +1,3 @@
-
 <div class="product">
     <h1 class="pro_line"></h1>
     <div class="swiper-container">
@@ -14,7 +13,7 @@
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
-            <li>特点</li>
+            <!-- <li>特点</li> -->
            
         </ul>
         <div class="con1">
@@ -24,11 +23,11 @@
                 </li>
             </ul>
         </div>
-        <div class="con2">
+        <!-- <div class="con2">
             <ul>    
                 <li>ss</li>
             </ul>  
-        </div>
+        </div> -->
     </div>
 </div>  
 
