@@ -120,10 +120,10 @@ class SiteController extends Controller
 	public function actionChaussures_pro(){
 		$this->render('chaussures_pro');
 	}
+	public function actionLocation(){
+		$this->render('location');
+	}
 	
-
-
-
 	public function actionStore($id)
 	{
 		$sql = "select * from same_store where id = ".intval($id);
