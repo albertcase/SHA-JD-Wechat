@@ -139,7 +139,7 @@ class Weixin{
 					$baidu = json_decode($baidu, true);
 					$lat = $baidu['result'][0]['x'];
 					$lng = $baidu['result'][0]['y'];
-					$squares = $this->returnSquarePoint($lng,$lat,10000);
+					$squares = $this->returnSquarePoint($lng,$lat,300000);
 
 
 
