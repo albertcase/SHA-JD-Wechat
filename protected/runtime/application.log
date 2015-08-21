@@ -7734,3 +7734,239 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/site/store
 ---
+2015/08/19 18:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "map" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('map')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('map')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/map')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/map
+---
+2015/08/21 10:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "map" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('map')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('map')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/map')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/map
+---
+2015/08/21 10:14:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "map" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('map')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('map')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/map')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/map
+---
+2015/08/21 10:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "shoe" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('shoe')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('shoe')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/shoe')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/shoe
+---
+2015/08/21 10:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_pro" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_pro')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_pro')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_pro
+HTTP_REFERER=http://192.168.8.105:9035/site/chaussures
+---
+2015/08/21 10:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_pro" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_pro')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_pro')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_pro
+HTTP_REFERER=http://192.168.8.105:9035/site/chaussures
+---
+2015/08/21 10:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_pro" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_pro')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_pro')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_pro
+HTTP_REFERER=http://192.168.8.105:9035/site/chaussures
+---
+2015/08/21 10:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_pro" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_pro')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_pro')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_pro
+HTTP_REFERER=http://192.168.8.105:9035/site/chaussures
+---
+2015/08/21 10:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_pro" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_pro')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_pro')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_pro
+HTTP_REFERER=http://192.168.8.105:9035/site/chaussures
+---
+2015/08/21 10:57:58 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "chaussures_p2".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('chaussures_p2', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(124): CController->render('chaussures_p2')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p2()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p2')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/chaussures_p2
+HTTP_REFERER=http://192.168.8.105:9035/site/chaussures
+---
+2015/08/21 10:59:25 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "chaussures_p2".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('chaussures_p2', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(124): CController->render('chaussures_p2')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p2()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p2')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/chaussures_p2
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:05:51 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "chaussures_p3".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('chaussures_p3', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(127): CController->render('chaussures_p3')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p3()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p3')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/chaussures_p3
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:06:01 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "chaussures_p4".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('chaussures_p4', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(130): CController->render('chaussures_p4')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p4()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p4')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/chaussures_p4
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:24:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---
+2015/08/21 11:27:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "chaussures_p9" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('chaussures_p9')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('chaussures_p9')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/chaussures...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/chaussures_p9
+HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
+---

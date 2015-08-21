@@ -5,6 +5,18 @@
             <div class="swiper-slide">
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures_pro/bea1.jpg" width="100%" />
             </div>
+            <div class="swiper-slide">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures_pro/bea2.jpg" width="100%" />
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures_pro/bea3.jpg" width="100%" />
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures_pro/bea4.jpg" width="100%" />
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures_pro/bea5.jpg" width="100%" />
+            </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>

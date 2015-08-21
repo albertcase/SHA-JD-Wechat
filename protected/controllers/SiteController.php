@@ -117,8 +117,32 @@ class SiteController extends Controller
 	public function actionAccessories_p4(){
 		$this->render('accessories_p4');
 	}
-	public function actionChaussures_pro(){
-		$this->render('chaussures_pro');
+	public function actionChaussures_p1(){
+		$this->render('chaussures_p1');
+	}
+	public function actionChaussures_p2(){
+		$this->render('chaussures_p2');
+	}
+	public function actionChaussures_p3(){
+		$this->render('chaussures_p3');
+	}
+	public function actionChaussures_p4(){
+		$this->render('chaussures_p4');
+	}
+	public function actionChaussures_p5(){
+		$this->render('chaussures_p5');
+	}
+	public function actionChaussures_p6(){
+		$this->render('chaussures_p6');
+	}
+	public function actionChaussures_p7(){
+		$this->render('chaussures_p7');
+	}
+	public function actionChaussures_p8(){
+		$this->render('chaussures_p8');
+	}
+	public function actionChaussures_p9(){
+		$this->render('chaussures_p9');
 	}
 	public function actionLocation(){
 		$this->render('location');
