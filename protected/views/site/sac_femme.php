@@ -1,9 +1,4 @@
 <div class="femme">
-
-  <a href="">
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme1.jpg" />
-    <p class="title">EDOUARD</p> 
-  </a>
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p1">  
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme2.jpg" />
     <p class="title">ANATOLE</p>
