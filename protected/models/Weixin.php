@@ -139,11 +139,11 @@ class Weixin{
 					$baidu = json_decode($baidu, true);
 					$lat = $baidu['result'][0]['x'];
 					$lng = $baidu['result'][0]['y'];
-					$squares = $this->returnSquarePoint($lng,$lat,10000);
+					$squares = $this->returnSquarePoint($lng,$lat,300000);
 
 
 
-					$info_sql = "select * from `same_store` where lat<>0 and lat>{$squares['right-bottom']['lat']} and lat<{$squares['left-top']['lat']} and lng<{$squares['left-top']['lng']} and lng>{$squares['right-bottom']['lng']} ";
+					$info_sql = "select * from `same_store` where lat<>0 and (lat between {$squares['right-bottom']['lat']} and {$squares['left-top']['lat']}) and (lng between {$squares['left-top']['lng']} and {$squares['right-bottom']['lng']})";
 					$rs = Yii::app()->db->createCommand($info_sql)->queryAll();
 					if(!$rs){
 						return $this->sendMsgForText($fromUsername, $toUsername, $time, "text", '很抱歉，您的附近没有门店');
