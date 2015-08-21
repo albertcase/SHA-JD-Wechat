@@ -53,7 +53,7 @@
 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p10">  
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme11.jpg" class="pro_img"/> 
-    <p class="title">RAYMOND</p>
+    <p class="title">VIRGILE</p>
   </a>  
 
 
