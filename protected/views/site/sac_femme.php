@@ -5,7 +5,7 @@
   </a>  
 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p2">  
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme3.jpg" class="pro_img"/>
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme3.jpg" />
     <p class="title">BOBI</p>
   </a>
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p3">    
@@ -16,7 +16,7 @@
 
 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p4">   
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme5.jpg" class="pro_img"/>
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme5.jpg" />
     <p class="title">GARYS</p>
   </a>
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p5">  
@@ -27,7 +27,7 @@
 
 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p6">  
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme7.jpg" class="pro_img"/>
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme7.jpg" />
     <p class="title">MARIO</p>
   </a>
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p7">    
@@ -38,7 +38,7 @@
 
 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p8">     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme9.jpg" class="pro_img"/>
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme9.jpg" />
     <p class="title">PACO</p>
   </a> 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p9">   
@@ -47,7 +47,7 @@
   </a>  
 
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p10">  
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme11.jpg" class="pro_img"/> 
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme11.jpg" /> 
     <p class="title">VIRGILE</p>
   </a>  
 
