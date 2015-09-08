@@ -1,5 +1,5 @@
 <div class="product">
-    <h1 class="pro_line"></h1>
+    <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -19,7 +19,7 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Igor mada python</h1>
-
+    <a class="btn-wishlist"><span class="heart-wishlist"></span> 加入收藏 </a>
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
@@ -43,9 +43,18 @@
 
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-        effect:'fade',
+        effect:'slide',
         pagination: '.swiper-pagination',
     })        
+</script>
+<script>
+    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/femme/Igor", {
+    formats: [  "mp3" ]
+});
+     $('.btsound').click(function(){
+        mySound.play()       
+       });
+
 </script>
 <script>         
     $(function () {

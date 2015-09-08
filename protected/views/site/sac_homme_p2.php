@@ -1,5 +1,5 @@
 <div class="product">
-    <h1 class="pro_line"></h1>
+    <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -45,9 +45,18 @@
 
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-        effect:'fade',
+        effect:'slide',
         pagination: '.swiper-pagination',
     })        
+</script>
+<script>
+    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/homme/Franky", {
+    formats: [  "mp3" ]
+});
+     $('.btsound').click(function(){
+        mySound.play()       
+       });
+
 </script>
 <script>         
     $(function () {

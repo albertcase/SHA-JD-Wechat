@@ -1,4 +1,8 @@
 <div class="campagne">
+    <div class="bloc-video">
+        <video  width="90%" controls src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne.mp4"></video>
+        <p> --- 看看书秋冬15 ---</p>
+    </div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -50,7 +54,7 @@
 
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-        effect:'fade',
+        effect:'slide',
         pagination: '.swiper-pagination',
     })        
 </script>  

@@ -1,6 +1,167 @@
 <div class="faq">
     <div class="faq_content">
-        <p class="strong">1. 品牌简介</p>
+        <div class="bloc-question">
+            <ul class="question">
+                <li>
+                    <a href="#one"><span class="strong">1.</span> 我能在微信上购买吗 ？</a>
+                </li>
+                <li>
+                    <a href="#two"><span class="strong">2.</span> 那我需要怎么购买 ？</a>
+                </li>
+                <li>
+                    <a href="#three"><span class="strong">3.</span> 在微信上我可以找到所有的产品吗 ？</a>
+                </li>
+                <li>
+                    <a href="#four"><span class="strong">4.</span> 罗姆·德莱福斯在中国有实体店吗 ？</a>
+                </li>
+                <li>
+                    <a href="#five"><span class="strong">5.</span> 请问售后服务政策是怎样的 ？</a>
+                </li>
+                <li>
+                    <a href="#six"><span class="strong">6.</span> 请问要怎样退换货 ？</a>
+                </li>
+                <li>
+                    <a href="#seven"><span class="strong">7.</span> 你们的明星产品是什么 ？</a>
+                </li>
+                <li>
+                    <a href="#height"><span class="strong">8.</span> 你们的包包都是真皮的吗 ？</a>
+                </li>
+                <!-- <li>
+                    <a href="#nine"><span class="strong">9.</span>
+                </li>
+                <li>
+                    <a href="#ten"><span class="strong">10.</span>
+                </li> -->
+            </ul>
+        </div>
+        <div class="bloc-answer">
+            <ul class="answer">
+                <li id="one">
+                    <span class="strong">
+                        1 - <br/>
+                        Q: 我能在微信上购买吗 ？
+                    </span><br/>
+                        A: "目前我们暂不支持微信支付服务，但是您可以通过微信预定你所钟爱的产品。
+我们在九月份为微信用户推出九折优惠活动。活动期间，关注微信账号，店铺内所有商品都可以获得九折折扣价！你还在等什么，赶快行动，把爱包领回家吧！快分享给你的好友吧！" 
+                </li>
+                <li id="two">
+                    <span class="strong">
+                        2 - <br/>
+                        Q: 那我需要怎么购买 ？
+                    </span><br/>
+                        A: 请至杰罗姆·德莱福斯实体店购买！我们在九月份为微信用户推出九折优惠活动。活动期间，关注微信账号，店铺内所有商品都可以获得九折折扣价！你还在等什么，赶快行动，把爱包领回家吧！快分享给你的好友吧！
+                </li>
+                <li id="three">
+                    <span class="strong">
+                        3 - <br/>
+                        Q: 在微信上我可以找到所有的产品吗 ？
+                    </span><br/>
+                        A: "我们目前微信平台的产品还不太齐全，您可以通过微信客服了解产品信息，您也可以点击以下链接至官网，了解最全的产品信息<web site of JD>
+我们在九月份为微信用户推出九折优惠活动。活动期间，关注微信账号，店铺内所有商品都可以获得九折折扣价！你还在等什么，赶快行动，把爱包领回家吧！快分享给你的好友吧！"
+                </li><br/>
+                <li id="four">
+                    <span class="strong">
+                        4 - <br/>
+                        Q: 罗姆·德莱福斯在中国有实体店吗 ？
+                    </span><br/>
+                        A: 我们目前在中国大陆地区没有实体店！
+                </li>
+                <li id="five">
+                    <span class="strong">
+                        5 - <br/>
+                        Q: 请问售后服务政策是怎样的 ？
+                    </span><br/>
+                        A: 无论任何问题，我们诚邀您直接去您购买的店铺询问，那里有专业的工作人员会帮您解答。
+                </li>
+                <li id="six">
+                    <span class="strong">
+                        6 - <br/>
+                        Q: 请问要怎样退换货 ？
+                    </span><br/>
+                        A: 无论任何问题，我们诚邀您直接去您购买的店铺询问，那里有专业的工作人员会帮您解答。
+                </li>
+                <li id="seven">
+                    <span class="strong">
+                        7 - <br/>
+                        Q: 你们的明星产品是什么 ？
+                    </span><br/>
+                        A: 我们的明星产品有：billy, bobi. 快来认识bobi吧：<a href="http://jdwechat.samesamechina.com/site/sac_femme_p2">BOBI</a>
+                </li>
+                <li id="height">
+                    <span class="strong">
+                        8 - <br/>
+                        Q: 你们的包包都是真皮的吗 ？
+                    </span><br/>
+                        A: 是的，杰罗姆·德莱福斯所有的包包都是真皮。我们从世界各地精选出山羊皮，羊羔皮，蟒蛇皮等优良材质作为杰罗姆·德莱福斯原材料。皮料本身的纹路得到最大限度的保留。除此之外，我们也有涉及精美的帆布及印花产品，同样精美。您可以根据您的喜好选择适合您的包包。
+                </li>
+                <!-- <li id="nine">
+                    <span class="strong">
+                         - <br/>
+                        Q:
+                    </span>
+                        A:
+                </li>
+                <li id="ten">
+                    <span class="strong">
+                         - <br/>
+                        Q:
+                    </span>
+                        A:
+                </li> -->
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <p class="strong">1. 品牌简介</p>
         <p>1998年3月，Jérôme Dreyfuss创建了他的同名品牌，让当时年仅23岁的他特立独行而名声鹊起。</p>
         <p>Jérôme凭借他的成衣系列“Couture à Porter”声名大噪。该系列首推之际就获得极大的成功，人们也因此称他为“法国时尚顽童”。活跃了四年之后，经过深思熟虑，Jérôme于2002年选择致力于创作具有传统奢侈品风格的皮革制品。<br/>
         Jérôme的灵感来源于通过观察自己的妻子和朋友，以及巴黎后街的女性们，并尝试用心去感受这些人们的真正需求。于是，他决心设计一系列美观且实用，拥有内涵且一眼就能认出的高辨识度包袋来吸引女性的购买欲。<br/>
@@ -42,6 +203,10 @@
         <p>鞋履也会施加同样的程序。</p>  
 
         <p class="strong">5. 售后服务</p>
+
+        <br/>
+        <br/>
+
         <p>无论任何问题，我们诚邀您直接去您购买的店铺询问，那里有专业的工作人员会帮您解答。</p>
         <p>如果确实属于产品问题，那么我们将最快速地为您提供解决方案（注意：请在购买后的15出示收据和保修卡，我们将予以维修或者为您提供即日起至为期三个月的当季产品礼品卡，只可在JD门店使用。）</p>
         <p>请在购买后的15天内保存保修卡</p>
@@ -75,8 +240,8 @@
             -在鞋跟钉（一块高跟鞋底的黑色橡胶）还没有磨损的时候更换。如果顾客没有及时的更换导致其磨损，那么鞋匠也束手无策。这一点对Biboots来说尤为重要。<br/>
             -皮革鞋履需要定期抛光。<br/>
             -对绒面皮革和麂皮要注意防水。<br/>
-        </p>
+        </p>-->
     
-    </div>    
+    </div> 
 
 </div>    

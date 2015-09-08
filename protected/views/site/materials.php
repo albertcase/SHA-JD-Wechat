@@ -1,11 +1,11 @@
 <div class="materials">
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials1.jpg" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials1.jpg" width="100%"  class="top"/>
     <h1 class="ma_title">材质</h1>
     <p class="ma_content">杰罗姆·德莱弗斯带我们进入一个放荡不羁和豪华的氛围，我们发现令人惊叹的色彩而精心打造的皮革。夕阳的颜色，草丛柔和的色调，兽皮，民族单色…一个审美偏见带来的牛仔和印第安人共同围绕软毛像马鞍布或毯子包裹，他们在围着篝火。</p>
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials2.jpg" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials2.jpg"  />
     <p class="pro_title">DEGRADE PONY<br>CALFSKIN</p>
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials3.jpg" width="100%" />
+    <!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials3.jpg" width="100%" />
     <p class="pro_title">MOUTARDE CALFSKIN</p>
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials4.jpg" width="100%" />
@@ -36,12 +36,12 @@
     <p class="pro_title">BOUTEILLE GOATSKIN</p>
    
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials13.jpg" width="100%" />
-    <p class="pro_title">KAKI NOIRCI<br>GOATSKIN</p>
+    <p class="pro_title">KAKI NOIRCI<br>GOATSKIN</p> -->
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials14.jpg" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials14.jpg"  />
     <p class="pro_title">MADA PYTHON</p>
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials15.jpg" width="100%" />
+   <!--  <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials15.jpg" width="100%" />
     <p class="pro_title">MOKA GOATSKIN</p>
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials16.jpg" width="100%" />
@@ -93,15 +93,15 @@
     <p class="pro_title">NOIR GOATSKIN</p>
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials32.jpg" width="100%" />
-    <p class="pro_title">NOIR PYTHON</p>
+    <p class="pro_title">NOIR PYTHON</p> -->
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials33.jpg" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials33.jpg"  />
     <p class="pro_title">NOIR LAMBSKIN</p>
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials34.jpg" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials34.jpg"  />
     <p class="pro_title">NOIR BACK CUT<br/>CALFSKIN</p>
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials35.jpg" width="100%" />
+   <!--  <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials35.jpg" width="100%" />
     <p class="pro_title">CHEVAL GRIS PONY<br>CALFSKIN</p>
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials36.jpg" width="100%" />
@@ -111,12 +111,12 @@
     <p class="pro_title">NOIR CAMAIEU</p>
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials38.jpg" width="100%" />
-    <p class="pro_title">NOIR MAT CALFSKIN</p>
+    <p class="pro_title">NOIR MAT CALFSKIN</p> -->
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials39.jpg" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials39.jpg"  />
     <p class="pro_title">KATCHINA OPIUM</p>
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials40.jpg" width="100%" />
+   <!--  <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials40.jpg" width="100%" />
     <p class="pro_title">NOIR VELVET<br>GOATSKIN</p>
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials41.jpg" width="100%" />
@@ -148,8 +148,8 @@
     
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials50.jpg" width="100%" />
     <p class="pro_title">COTTO BACK CUT<br>CALFSKIN</p>
-    
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials51.jpg" width="100%" />
+     -->
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/materials/materials51.jpg"  />
     <p class="pro_title">BANDANA FABRIC</p>
     
 </div>  
