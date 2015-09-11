@@ -16,6 +16,18 @@ class SiteController extends Controller
 	{
 		$this->render('accesoires');
 	}
+	public function actionWishlist()
+	{
+		$this->render('wishlist');
+	}
+	public function actionAbout()
+	{
+		$this->render('about');
+	}
+	public function actionStar()
+	{
+		$this->render('stars');
+	}
 
 	public function actionBlog1(){
 		$this->render('blog1');

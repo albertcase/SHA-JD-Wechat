@@ -7970,3 +7970,477 @@ Stack trace:
 REQUEST_URI=/site/chaussures_p9
 HTTP_REFERER=http://192.168.8.111:9035/site/chaussures
 ---
+2015/09/11 16:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sac_femme_p1.php"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('sac_femme_p1.ph...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/sac_femme_p1.php
+---
+2015/09/11 16:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sac_femme_p1.php"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('sac_femme_p1.ph...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/sac_femme_p1.php
+---
+2015/09/11 16:06:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sac_femme_p1"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('sac_femme_p1')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/sac_femme_p1
+---
+2015/09/11 16:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sac_femme_p1"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('sac_femme_p1')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/sac_femme_p1
+---
+2015/09/11 16:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "about.php" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('about.php')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('about.php')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about.php')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/about.php
+---
+2015/09/11 16:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "config.xml"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('config.xml')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/config.xml
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "ripple/user-agent"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('ripple/user-age...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/ripple/user-agent
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "config.xml"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('config.xml')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/config.xml
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "ripple/user-agent"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('ripple/user-age...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/ripple/user-agent
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "about" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('about')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/about
+---
+2015/09/11 16:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "about.php" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('about.php')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('about.php')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about.php')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/about.php
+---
+2015/09/11 16:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "about.php" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('about.php')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('about.php')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about.php')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/about.php
+---
+2015/09/11 16:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole1.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole3.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole4.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole2.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/sound/femme/Anatole.mp3
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole1.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole3.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole2.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/sac_femme_pro/anatole4.jpg
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/sound/femme/Anatole.mp3
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "about"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('about')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/about
+---
+2015/09/11 16:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "about.php"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('about.php')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/about.php
+---
+2015/09/11 16:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "<"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/sound/femme/Anatole.mp3
+HTTP_REFERER=http://localhost:8888/wechat/
+---
+2015/09/11 16:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "stars" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('stars')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('stars')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/stars')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/stars
+---
+2015/09/11 16:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "star" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('star')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('star')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/star')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/star
+---
+2015/09/11 16:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "stars" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('stars')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('stars')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/stars')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/stars
+---
+2015/09/11 16:42:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:336
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#4 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#5 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/wechat/site/store
+---
+2015/09/11 16:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "store.php" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('store.php')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('store.php')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store.php')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/store.php
+---
+2015/09/11 16:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "ABOUT" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('ABOUT')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('ABOUT')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/ABOUT')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/ABOUT
+---
+2015/09/11 16:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "about" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('about')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/about
+---
+2015/09/11 16:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "pages" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('pages')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('pages')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/pages/abou...')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/pages/about
+---
+2015/09/11 16:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "pages" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('pages')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('pages')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/pages/camp...')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/pages/campagne
+---
+2015/09/11 17:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "femme" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('femme')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('femme')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/femme')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/femme
+---
+2015/09/11 18:45:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "femme" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('femme')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('femme')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/femme')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/femme
+---
+2015/09/11 21:59:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "wislist" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('wislist')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('wislist')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/wislist')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/wislist
+---
+2015/09/11 22:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "wishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('wishlist')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('wishlist')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/wishlist')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/wishlist
+---
+2015/09/11 22:35:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "stars" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('stars')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('stars')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/stars')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/stars
+---
+2015/09/11 22:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/stars-pitct01.jpg"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/st...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/images/stars/stars-pitct01.jpg
+HTTP_REFERER=http://localhost:8888/wechat/site/star
+---
+2015/09/11 22:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/stars-pitct03.jpg"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/st...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/images/stars/stars-pitct03.jpg
+HTTP_REFERER=http://localhost:8888/wechat/site/star
+---
+2015/09/11 22:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/stars-pitct04.jpg"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/st...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/images/stars/stars-pitct04.jpg
+HTTP_REFERER=http://localhost:8888/wechat/site/star
+---
+2015/09/11 22:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/stars-pitct02.jpg"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/st...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/images/stars/stars-pitct02.jpg
+HTTP_REFERER=http://localhost:8888/wechat/site/star
+---
+2015/09/11 23:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "commiments" 动作.' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(270): CController->missingAction('commiments')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): CController->run('commiments')
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/commiments')
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/wechat/site/commiments
+---
+2015/09/12 00:03:24 [error] [php] A session had already been started - ignoring session_start() (/Users/samesame/Desktop/SITEDEV/wechat/protected/views/site/sac_femme_p1.php:76)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/controllers/SiteController.php(91): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionSac_femme_p1()
+#5 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/wechat/site/sac_femme_p1
+in /Users/samesame/Desktop/SITEDEV/wechat/protected/views/site/sac_femme_p1.php (76)
+in /Users/samesame/Desktop/SITEDEV/wechat/protected/controllers/SiteController.php (91)
+in /Users/samesame/Desktop/SITEDEV/wechat/index.php (19)
+2015/09/12 00:03:46 [error] [php] A session had already been started - ignoring session_start() (/Users/samesame/Desktop/SITEDEV/wechat/protected/views/site/sac_femme_p1.php:76)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/controllers/SiteController.php(91): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionSac_femme_p1()
+#5 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/wechat/site/sac_femme_p1
+in /Users/samesame/Desktop/SITEDEV/wechat/protected/views/site/sac_femme_p1.php (76)
+in /Users/samesame/Desktop/SITEDEV/wechat/protected/controllers/SiteController.php (91)
+in /Users/samesame/Desktop/SITEDEV/wechat/index.php (19)
+2015/09/12 00:08:01 [error] [php] A session had already been started - ignoring session_start() (/Users/samesame/Desktop/SITEDEV/wechat/protected/views/site/sac_femme_p1.php:76)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/wechat/protected/controllers/SiteController.php(91): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionSac_femme_p1()
+#5 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/wechat/site/sac_femme_p1
+in /Users/samesame/Desktop/SITEDEV/wechat/protected/views/site/sac_femme_p1.php (76)
+in /Users/samesame/Desktop/SITEDEV/wechat/protected/controllers/SiteController.php (91)
+in /Users/samesame/Desktop/SITEDEV/wechat/index.php (19)
+2015/09/12 01:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/sac_femme/paco-bandana.jpg"。' in /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sac_femm...')
+#1 /Users/samesame/Desktop/SITEDEV/wechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/wechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/wechat/images/sac_femme/paco-bandana.jpg
+HTTP_REFERER=http://localhost:8888/wechat/site/sac_femme
+---

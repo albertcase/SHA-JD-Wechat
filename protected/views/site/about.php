@@ -1,7 +1,7 @@
 <div class="about">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/JD/JD1.jpg" class="img-header" style="width:100%">
 	<div>
-		<h1><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/JD/title.jpg" class="img-header" style="width:50%"></h1>
+		<h1><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/JD/title.jpg" class="img-header" ></h1>
 		<p>
 			Jérôme Dreyfuss 于1974年生于南锡。十七岁时移居巴黎在ESMOD学校学习时尚，但三个月后辍学去约翰·加利亚诺（John Galliano）旗下工读。1998年，年仅23岁的Jérôme就发布了自己的首个女装系列——Couture à Porter。凭借前卫优雅的设计风格以及古灵精怪的幽默感，该系列的问世牢牢把这位以巴黎为基地的年轻设计师钉在时尚圈的版图之上，媒体界也不无宣称其为“法国时尚界的问题儿童”。 
 		</p>

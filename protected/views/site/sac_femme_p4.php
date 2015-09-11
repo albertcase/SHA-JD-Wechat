@@ -18,8 +18,11 @@
         </div>
         <div class="swiper-pagination"></div>
     </div>
-    <h1 class="product_title">Garys katchina noir lambskin</h1>
-    <a class="btn-wishlist"><span class="heart-wishlist"></span> 加入收藏 </a>
+    <h1 class="product_title">Gary S katchina noir lambskin</h1>
+    <div class="btn-wishlist">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
+        <p>加入收藏</p> 
+    </div>
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>

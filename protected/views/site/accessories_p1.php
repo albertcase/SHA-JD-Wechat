@@ -13,7 +13,10 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Julien noir python</h1>
-
+    <div class="btn-wishlist">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
+        <p>加入收藏</p> 
+    </div>
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
