@@ -575,14 +575,16 @@ video {
 }
 
 .femme .title:before, .title:after {
-  padding: 0 10px;
+  padding: 0 6px;
 }
 .femme .picture {
   width: 90%;
-  margin: 2.5%;
+  margin: 5%;
 }
 .femme .picture img {
   width: 100%;
+  margin-left:0;
+  left:0;
 }
 .femme .picture p {
   margin-left: 25px;
