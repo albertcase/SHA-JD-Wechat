@@ -269,7 +269,7 @@ html,body{
 .product_title {
   font-size: 3em;
   font-weight: bold;
-  margin: 1em 0 2em 0;
+  margin: 1em 0 0 0;
 }
 
 .star .swiper-container {
@@ -496,9 +496,16 @@ video {
   padding-top: 75px;
   font-size: 16px;
 }
+.price-btn{
+  display: block;
+  height: 13px;
+  margin: 5px 0 20px 0;
+  font-size: 13px;
+
+}
 .btn-wishlist {
     border: 1px solid black;
-    padding: 15px 25px;
+    padding: 12px 25px;
     display: inline;
 }
 .btn-wishlist p {

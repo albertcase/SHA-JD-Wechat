@@ -19,8 +19,7 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Bobi rouille lambskin</h1>
-    <p>€570.00</p>
-    <p class="button wishlist"> 加入收藏 </p>
+    <p class="price-btn">€570.00</p>
    <div class="btn-wishlist">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
         <p>加入收藏</p> 

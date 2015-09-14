@@ -15,6 +15,7 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Mario noir lambskin</h1>
+    <p class="price-btn">€655.00</p>
     <div class="btn-wishlist">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
         <p>加入收藏</p> 

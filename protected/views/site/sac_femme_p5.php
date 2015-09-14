@@ -19,6 +19,7 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Igor mada python</h1>
+    <p class="price-btn">€1485.00</p>
     <div class="btn-wishlist">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
         <p>加入收藏</p> 
