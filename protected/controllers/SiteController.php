@@ -159,7 +159,9 @@ class SiteController extends Controller
 	public function actionLocation(){
 		$this->render('location');
 	}
-	
+	public function actionPageop(){
+		$this->render('pageop');
+	}
 	public function actionStore($id)
 	{
 		$sql = "select * from same_store where id = ".intval($id);

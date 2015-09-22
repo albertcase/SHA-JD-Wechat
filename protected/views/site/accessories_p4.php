@@ -13,11 +13,12 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Popoche S noir goatskin</h1>
-    <div class="btn-wishlist">
+    <p class="price-btn">110.00</p>
+    <!-- <div class="btn-wishlist">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
         <p>加入收藏</p> 
     </div>
-    <div class="tab">
+    <div class="t -->ab">
         <ul class="menu">
             <li class="active">描述</li>
             <!-- <li>特点</li> -->

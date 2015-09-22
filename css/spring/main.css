@@ -389,6 +389,7 @@ html,body{
     z-index: 200;
     top: 10px;
     right: 10px;
+    background-size: 40px 40px;
 
 }
 .about p {
@@ -593,7 +594,37 @@ video {
   margin-left:0;
   left:0;
 }
+.page-op .imgtop {
+  width: 60%;
+  margin: 0 auto;
+}
+.page-op .imgtop img {
+  margin:20px 0;
+}
 
+.page-op .text-op {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+.page-op .text-op p {
+  margin-bottom: 15px;
+}
+.price {
+  font-size: 15px;
+}
+
+.materials p.pro_title, .homme a p.title {
+  margin-bottom: 5px;
+}
+.materials p.text-material {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
 }
 
 @media only screen and (min-width:320px) and (max-height:416px) {
