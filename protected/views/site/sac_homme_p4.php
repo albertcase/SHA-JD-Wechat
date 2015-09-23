@@ -49,7 +49,7 @@
 
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-        effect:'slade',
+        effect:'slide',
         pagination: '.swiper-pagination',
     })        
 </script>

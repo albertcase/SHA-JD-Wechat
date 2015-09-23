@@ -44,7 +44,7 @@
 
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-        effect:'fade',
+        effect:'slide',
         pagination: '.swiper-pagination',
     })        
 </script>
