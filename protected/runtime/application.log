@@ -8532,3 +8532,13 @@ Stack trace:
 REQUEST_URI=/JDWechat/images/btsound.png
 HTTP_REFERER=http://localhost:8888/JDWechat/css/spring/main.css
 ---
+2015/09/23 21:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accesoire" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('accesoire')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('accesoire')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accesoire')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/accesoire
+---
