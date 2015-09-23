@@ -379,9 +379,9 @@ html,body{
   margin: 0 0 0 5em;
 }
 .btsound {
-  width: 40px;
-    height: 40px;
-    background-image: url('../../images/btsound3.png');
+  width: 50px;
+    height: 50px;
+    background-image: url('../../images/bt-sound2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     display: block;
@@ -389,7 +389,7 @@ html,body{
     z-index: 200;
     top: 10px;
     right: 10px;
-    background-size: 40px 40px;
+    background-size: 50px 50px;
 
 }
 .about p {
@@ -570,7 +570,7 @@ video {
   overflow: hidden;
   position: relative;
 }
-
+.femme a:last-child{margin-bottom: 20px;}
 .femme a img {
   /*margin-left: -151px;
   left: 50%;*/
