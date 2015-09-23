@@ -52,7 +52,7 @@
     })        
 </script>
 <script>
-    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/femme/Igor", {
+    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/Femme/Igor", {
     formats: [  "mp3" ]
 });
      $('.btsound').click(function(){

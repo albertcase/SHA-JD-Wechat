@@ -8514,3 +8514,21 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/wechat/site/femme
 ---
+2015/09/23 15:12:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/btsound.png"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/btsound....')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/images/btsound.png
+HTTP_REFERER=http://localhost:8888/JDWechat/css/spring/main.css
+---
+2015/09/23 15:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/btsound.png"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/btsound....')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/images/btsound.png
+HTTP_REFERER=http://localhost:8888/JDWechat/css/spring/main.css
+---
