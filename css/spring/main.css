@@ -112,6 +112,7 @@ html,body{
   left:0;
   text-align: center;
   margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .femme{text-align:left;}
 .homme a:link,.homme a:visited,.homme a:hover {

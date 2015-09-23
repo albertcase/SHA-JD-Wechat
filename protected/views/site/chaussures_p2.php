@@ -47,7 +47,7 @@
     </div>
 </div> 
 <script>
-    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/Chaussures/Biboots-f", {
+    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/Chaussures/biboots-f", {
     formats: [  "mp3" ]
 });
      $('.btsound').click(function(){
