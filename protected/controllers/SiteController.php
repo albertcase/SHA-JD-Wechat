@@ -24,7 +24,7 @@ class SiteController extends Controller
 	{
 		$this->render('about');
 	}
-	public function actionStar()
+	public function actionStars()
 	{
 		$this->render('stars');
 	}
