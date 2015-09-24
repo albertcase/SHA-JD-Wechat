@@ -126,7 +126,7 @@ html,body{
 }
 .title:before,.title:after{
   content:url("../../images/line.jpg"); 
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 .pro_img{
