@@ -1,4 +1,7 @@
 <div class="blog">
+    <header>
+        <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/blog2">下一页<span>></span></a>
+    </header>
     <h1 class="blog_title">JEROME DREYFUSS踏上<br/>66号公路之旅</h1>
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/blog1/blog1.jpg" width="100%" />
     <p class="blog_content">美国有一个传统由来已久，和这个国家的历史一样悠久——人们渴望驱车向前，朝着西方的落日进发。飞速奔驰在这条美国奇幻之路上，杰莱姆德莱福士2015春夏系列的灵感源于汽车内部，复古的大众Kombi货车开启了公路旅行最棒的纪元，其内部设计像外壳一样漂亮且人性化，其审美接近于美国历史上的四轮马车。小牛毛制成的黄色毛毡有着磨损的痕迹，货车窗装饰着Jacquline式印花窗帘，甚至是蓝色的蝴蝶结领带和染色的羔羊皮都能与此行车上旅人的T恤相搭配。您的景色已经装点完毕。想象一下，当您把双手放在方向盘上，踩紧油门，野性自由的飞驰在路上，只有两条黄线和您最爱的音乐指引着您前进——就像我们现在这样。</p>

@@ -8607,3 +8607,65 @@ Stack trace:
 REQUEST_URI=/jd/images/stars/emma_robert-crop.jpg
 HTTP_REFERER=http://localhost:8888/jd/site/stars
 ---
+2015/09/25 23:44:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "ripple" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('ripple')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('ripple')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/ripple/use...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/ripple/user-agent
+HTTP_REFERER=http://localhost:8888/jd/site/campagne
+---
+2015/09/25 23:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "ripple" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('ripple')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('ripple')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/ripple/use...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/ripple/user-agent
+HTTP_REFERER=http://localhost:8888/jd/site/campagne
+---
+2015/09/26 00:00:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "blog.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('blog.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('blog.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blog.php')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/blog.php
+---
+2015/09/26 00:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "blog.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('blog.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('blog.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blog.php')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/blog.php
+---
+2015/09/26 00:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "blog1.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('blog1.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('blog1.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blog1.php')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/blog1.php
+---
+2015/09/26 00:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "blog&" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('blog&')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('blog&')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/blog&')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/blog&
+---
