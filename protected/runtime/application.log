@@ -8542,3 +8542,68 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/jd/site/accesoire
 ---
+2015/09/25 17:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accessories" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('accessories')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('accessories')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accessorie...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/accessories
+---
+2015/09/25 17:57:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "homme" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('homme')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('homme')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/homme')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/homme
+---
+2015/09/25 21:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/emma_robert-crop.jpg"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/em...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/stars/emma_robert-crop.jpg
+HTTP_REFERER=http://localhost:8888/jd/site/stars
+---
+2015/09/25 21:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/emma_robert-crop.jpg"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/em...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/stars/emma_robert-crop.jpg
+HTTP_REFERER=http://localhost:8888/jd/site/stars
+---
+2015/09/25 21:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/emma_robert-crop.jpg"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/em...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/stars/emma_robert-crop.jpg
+HTTP_REFERER=http://localhost:8888/jd/site/stars
+---
+2015/09/25 21:22:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/emma_robert-crop.jpg"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/em...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/stars/emma_robert-crop.jpg
+HTTP_REFERER=http://localhost:8888/jd/site/stars
+---
+2015/09/25 21:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/stars/emma_robert-crop.jpg"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stars/em...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/stars/emma_robert-crop.jpg
+HTTP_REFERER=http://localhost:8888/jd/site/stars
+---

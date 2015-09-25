@@ -126,7 +126,7 @@ html,body{
 }
 .title:before,.title:after{
   content:url("../../images/line.jpg"); 
-  padding: 0 0.5em;
+  padding: 0 0.4em;
 }
 
 .pro_img{
@@ -286,7 +286,9 @@ html,body{
   position: relative;
   margin:0 0 5em 0;
 }
-
+.swiper-slide img {
+  width: 100%;
+}
 /*tab*/
 .tab{
   width:100%;
@@ -497,7 +499,7 @@ video {
 }
 .star p {
   text-align: center;
-  padding-top: 75px;
+  padding-top: 20px;
   font-size: 16px;
 }
 .price-btn{
@@ -567,21 +569,22 @@ video {
 .text-wishlist p{
   margin-bottom: 5px;
 }
-.femme a {
+.femme a, .accesoires a, .homme a {
   width: 50%;
   float:left;
   overflow: hidden;
   position: relative;
+  margin-bottom: 5px;
 }
-.femme a:last-child{margin-bottom: 20px;}
-.femme a img {
+.femme a:last-child, .accesoires a:last-child {margin-bottom: 20px;}
+.femme a img, .accesoires a img, .homme a img {
   /*margin-left: -151px;
   left: 50%;*/
   width:100%;
   position: relative;
 }
 
-.femme a p {
+.femme a p, .accesoires a p, .homme a p {
   font-size: 1.5em;
   text-align: center;
 }
@@ -589,11 +592,11 @@ video {
 /*.femme .title:before, .title:after {
   padding: 0 6px;
 }*/
-.femme .picture {
+.femme .picture, .accesoires .picture, .homme .picture {
   width: 90%;
   margin: 5%;
 }
-.femme .picture img {
+.femme .picture img, .accesoires .picture img, .homme .picture img {
   width: 100%;
   margin-left:0;
   left:0;
@@ -619,6 +622,7 @@ video {
 }
 .price {
   font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .materials p.pro_title, .homme a p.title {
