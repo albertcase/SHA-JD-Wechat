@@ -1,6 +1,6 @@
 <div class="campagne">
     <div class="bloc-video">
-        <video  height="100%" controls="false" src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/video.mp4"></video>
+        <video  width="100%" controls="false" src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/video.mp4"></video>
     </div>
      <p class="video-text"> --- 看看书秋冬15 ---</p>
     <div class="swiper-container">
@@ -67,8 +67,16 @@ var product = [
     ["Gary迷你流苏手袋", "http://jdwechat.samesamechina.com/site/sac_femme_p4"]
 ];
 
-$('.bloc-video').click(function(){
-    $('video').css("display", "block");
+$( document ).ready(function() {
+
+    $('.bloc-video').click(function(){
+        $('video').css("display", "block");
+    });
+
+    $('.bloc-video').click(function(){
+        $("video").get(0).play();
+        });
+   
 });
 </script>
 
