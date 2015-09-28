@@ -140,10 +140,11 @@ class Weixin{
 					$lat = $baidu['result'][0]['x'];
 					$lng = $baidu['result'][0]['y'];
 					$squares = $this->returnSquarePoint($lng,$lat,300000);
-
-
-
-					$info_sql = "select * from `same_store` where lat<>0 and (lat between {$squares['right-bottom']['lat']} and {$squares['left-top']['lat']}) and (lng between {$squares['left-top']['lng']} and {$squares['right-bottom']['lng']})";
+					$latbig = $squares['right-bottom']['lat'] > $squares['left-top']['lat'] ? $squares['right-bottom']['lat'] : $squares['left-top']['lat'];
+					$latsmall = $squares['right-bottom']['lat'] > $squares['left-top']['lat'] ? $squares['left-top']['lat'] : $squares['right-bottom']['lat'];
+					$lngbig = $squares['left-top']['lng'] > $squares['right-bottom']['lng'] ? $squares['left-top']['lng'] : $squares['right-bottom']['lng'];
+					$lngsmall = $squares['left-top']['lng'] > $squares['right-bottom']['lng'] ? $squares['right-bottom']['lng'] : $squares['left-top']['lng'];
+					$info_sql = "select * from `same_store` where lat<>0 and (lat between {$latsmall} and {$latbig}) and (lng between {$lngsmall} and {$lngbig})";
 					$rs = Yii::app()->db->createCommand($info_sql)->queryAll();
 					if(!$rs){
 						return $this->sendMsgForText($fromUsername, $toUsername, $time, "text", '很抱歉，您的附近没有门店');
