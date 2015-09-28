@@ -1,4 +1,7 @@
 <div class="blog">
+     <!-- <header>
+        <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/blog4">下一页<span>></span></a>
+    </header> -->
     <h1 class="blog_title">JEROME DREYFUSS踏上<br/>66号公路之旅：第三部</h1>
     <p class="blog_line"></p>
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/blog3/blog1.jpg" width="100%" />

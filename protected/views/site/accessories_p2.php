@@ -1,5 +1,5 @@
 <div class="product">
-    <h1 class="pro_line"></h1>
+    <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -13,7 +13,11 @@
         <div class="swiper-pagination"></div>
     </div>
     <h1 class="product_title">Malcom noir python</h1>
-
+    <p class="price-btn">€570.00</p>
+    <!-- <div class="btn-wishlist">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
+        <p>加入收藏</p> 
+    </div> -->
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
@@ -33,11 +37,20 @@
             </ul>  
         </div> -->
     </div>
-</div>  
+</div> 
+<script>
+    var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/Accessoires/Malcom", {
+    formats: [  "mp3" ]
+});
+     $('.btsound').click(function(){
+        mySound.play()       
+       });
+
+</script> 
 
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-        effect:'fade',
+        effect:'slide',
         pagination: '.swiper-pagination',
     })        
 </script>

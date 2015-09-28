@@ -214,6 +214,10 @@
   left: 0;
   width: 100%;
 }
+
+.star .swiper-container-horizontal > .swiper-pagination {
+  bottom: 60px
+}
 .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
   margin: 0 2px;
 }
