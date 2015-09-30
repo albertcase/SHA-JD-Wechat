@@ -126,7 +126,7 @@ html,body{
 }
 .title:before,.title:after{
   content:url("../../images/line.jpg"); 
-  padding: 0 0.4em;
+  padding: -1px 0.4em;
 }
 
 .pro_img{
@@ -397,6 +397,17 @@ html,body{
     background-size: 50px 50px;
 
 }
+
+.btwishlist {
+    display: block;
+    position: absolute;
+    z-index: 200;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    color: black;
+}
+
 .about p {
   font-size: 16px;
   width: 80%;
@@ -513,17 +524,26 @@ video {
 }
 .btn-wishlist {
     border: 1px solid black;
-    padding: 12px 25px;
-    display: inline;
+    padding: 10px 25px;
+    display: inline-block;
 }
 .btn-wishlist p {
   display: inline-block;
+   font-size: 1.5em;
 }
-.heart-wishlist {
-   width: 30px;
-    height: 20px;
-    display: inline-block;
+
+.go-wishlist {
+    border: 1px solid black;
+    padding: 10px 25px;
+    display: none;
+    width: 115px;
+    margin: 0 auto;
 }
+.go-wishlist p {
+  display: inline-block;
+
+}
+
 .bag {
   position: absolute;
   bottom: 10px;
@@ -544,29 +564,51 @@ video {
   width: 60%;
 }
 .top-wishlist {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   border-bottom: 1px solid black;
-  padding: 15px 0px;
-  position:;
   top: 0;
   display: block;
 }
+.top-wishlist .title {
+  margin: 10px 0;
+}
 
 .wishlist ul li {
-  border: 1px solid white;
-  background-color: #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 0 5px 0;
+    position: relative;
+}
+.wishlist .img-wishlist{
+  display: inline-block;
+    height: 100%;
+    width: 40%;
+    float: left;
+    overflow: hidden;
 }
 
+.wishlist ul li .remove {
+  float: right;
+  margin: 7px;
+}
+
+.wishlist ul li a {
+  color: black;
+  width: 85%;
+  display: inline-block;
+}
 .img-wishlist img {
-  width: 30%;
+  width: 70%;
   float: left;
-  margin: 10px;
 }
 .text-wishlist {
- font-size: 2em;
- padding:20px;
+ font-size: 1.8em;
+ padding-top:10px;
+ padding-left: 10px;
  display: inline-block;
+ width: 60%;
 }
 .text-wishlist p{
   margin-bottom: 5px;
@@ -683,7 +725,6 @@ video {
   .store_all{
     margin: 6% 0 0 10%;
   }  
-
 }
 @media only screen and (min-width:360px) and (max-width:384px) and (max-height:519px) {
   .store_info{
@@ -697,4 +738,11 @@ video {
     margin: 6% 0 0 10%;
   }
 }
+@media only screen and (max-width:360px) {
+  .img-wishlist img {
+   width: 100%;
+    display: block;
+    margin: -10px 0 0 0;
+  }
 
+}

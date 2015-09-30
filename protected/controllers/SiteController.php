@@ -20,6 +20,14 @@ class SiteController extends Controller
 	{
 		$this->render('wishlist');
 	}
+	public function actionAddwishlist()
+	{
+		$this->render('addwishlist');
+	}
+	public function actionRemovewishlist()
+	{
+		$this->render('removewishlist');
+	}
 	public function actionAbout()
 	{
 		$this->render('about');

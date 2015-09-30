@@ -8743,3 +8743,524 @@ Stack trace:
 REQUEST_URI=/jd/site/blog&
 >>>>>>> c37052265747b642646dafc996137a089763eeae
 ---
+2015/09/29 17:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "addwishlist.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('addwishlist.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('addwishlist.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/addwishlis...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/addwishlist.php?idproduct=5
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/29 17:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "addwishlist.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('addwishlist.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('addwishlist.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/addwishlis...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/addwishlist.php?idproduct=5
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/29 17:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "addwishlist.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('addwishlist.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('addwishlist.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/addwishlis...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/addwishlist.php?idproduct=5
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/29 17:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accessories_p1.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('accessories_p1....')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('accessories_p1....')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accessorie...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/accessories_p1.php
+---
+2015/09/29 17:14:10 [error] [php] Undefined index: idproduct (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:2)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (2)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "addwishlist.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('addwishlist.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('addwishlist.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/addwishlis...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/addwishlist.php
+---
+2015/09/29 17:14:39 [error] [php] array_push() expects parameter 1 to be array, null given (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:2)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist?idproduct=5
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (2)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:18:55 [error] [php] array_push() expects parameter 1 to be array, string given (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:3)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist?idproduct=5
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (3)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:22:14 [error] [php] array_push() expects parameter 1 to be array, string given (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:4)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist?idproduct=5
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (4)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:22:16 [error] [php] array_push() expects parameter 1 to be array, string given (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:4)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist?idproduct=5
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (4)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:24:45 [error] [php] Array to string conversion (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:2)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist?idproduct=5
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (2)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:27:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "addwishlist.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('addwishlist.php')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('addwishlist.php')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/addwishlis...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/addwishlist.php
+---
+2015/09/29 17:27:51 [error] [php] Undefined index: idproduct (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php:5)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(25): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionAddwishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/addwishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/addwishlist.php (5)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (25)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 17:27:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accessories_p1.php" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('accessories_p1....')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('accessories_p1....')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accessorie...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/accessories_p1.php
+---
+2015/09/29 17:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/check.png"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/check.pn...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/check.png
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/29 22:18:20 [error] [php] Array to string conversion (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:8)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (8)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 22:18:48 [error] [php] Array to string conversion (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:10)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (10)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 22:35:03 [error] [php] Undefined variable: array (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:10)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (10)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 22:35:40 [error] [php] Undefined variable: array (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:10)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (10)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/29 23:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accesoires_p1" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('accesoires_p1')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('accesoires_p1')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accesoires...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/accesoires_p1
+---
+2015/09/29 23:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/sac_femme/femme10"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sac_femm...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/sac_femme/femme10
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/29 23:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/sac_femme/femme10"。' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sac_femm...')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/jd/images/sac_femme/femme10
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/29 23:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "<" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('<')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('<')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/<')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/site/wishlist
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/29 23:23:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "<" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('<')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('<')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/<')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/site/wishlist
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/29 23:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "<" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('<')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('<')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/<')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/site/wishlist
+HTTP_REFERER=http://localhost:8888/jd/site/accessories_p1
+---
+2015/09/30 20:18:23 [error] [php] Undefined index: wishlist (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:44)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (44)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/30 21:04:25 [error] [php] Array to string conversion (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:47)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (47)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/30 21:04:55 [error] [php] Array to string conversion (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:47)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (47)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/30 21:05:24 [error] [php] Array to string conversion (/Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php:47)
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CWebApplication->run()
+REQUEST_URI=/jd/site/wishlist
+in /Users/samesame/Desktop/SITEDEV/jd/protected/views/site/wishlist.php (47)
+in /Users/samesame/Desktop/SITEDEV/jd/protected/controllers/SiteController.php (21)
+in /Users/samesame/Desktop/SITEDEV/jd/index.php (19)
+2015/09/30 22:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accessories_p6" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('accessories_p6')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('accessories_p6')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accessorie...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/accessories_p6
+---
+2015/09/30 22:01:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "site" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('site')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/chaus...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/site/chaussures_p7
+---
+2015/09/30 22:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=undefined
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=undefined
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=undefined
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=undefined
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=undefined
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=1
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=0
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=2
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---
+2015/09/30 22:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "removewishlist" 动作.' in /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CController.php(270): CController->missingAction('removewishlist')
+#1 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(282): CController->run('removewishlist')
+#2 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/removewish...')
+#3 /Users/samesame/Desktop/SITEDEV/jd/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/samesame/Desktop/SITEDEV/jd/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/jd/site/removewishlist?keyproduct=3
+HTTP_REFERER=http://localhost:8888/jd/site/wishlist
+---

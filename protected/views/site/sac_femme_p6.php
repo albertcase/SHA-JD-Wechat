@@ -1,4 +1,8 @@
 <div class="product">
+    <?php
+    if ( isset($_SESSION["wishlist"]) && count($_SESSION["wishlist"]) != 0)
+        echo '<a href="'.Yii::app()->request->baseUrl .'/site/wishlist" class="btwishlist">心愿单</a>';
+?>    
     <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -35,11 +39,16 @@
                 </li>
             </ul>
         </div>
-        <!-- <div class="con2">
-            <ul>    
-                <li>ss</li>
-            </ul>  
-        </div> -->
+        <div class="btn-wishlist">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
+        <p>加入收藏</p> 
+    </div>
+    <div class="go-wishlist">
+        <a href="">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/check.png" />
+        <p>进入收藏</p> 
+        </a>
+    </div>
     </div>
 </div>  
 
@@ -69,5 +78,24 @@
             $('.tab').children('div').eq(Index).show().siblings('div').hide();
        
        });
-    });    
+    });  
+    $( document ).ready(function() {
+        $('.btn-wishlist').click(function(){
+            $(this).animate({opacity:0.2},150)
+            setTimeout(function(){
+                $.ajax({
+                url : 'addwishlist?idproduct=19', 
+                type : 'GET' ,
+                  success: function(data) {   
+                                            $('.btn-wishlist').fadeOut(100);
+                                            $('.go-wishlist').delay(100).fadeIn(200);
+                                              
+            },
+                error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
+            });
+            }, 200);
+        });
+            
+    });
+  
 </script>

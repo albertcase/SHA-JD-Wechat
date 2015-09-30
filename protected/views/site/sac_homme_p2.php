@@ -1,4 +1,8 @@
 <div class="product">
+     <?php
+    if ( isset($_SESSION["wishlist"]) && count($_SESSION["wishlist"]) != 0)
+        echo '<a href="'.Yii::app()->request->baseUrl .'/site/wishlist" class="btwishlist">心愿单</a>';
+?>    
     <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -20,10 +24,16 @@
     </div>
     <h1 class="product_title">Franky noir lambskin</h1>
     <p class="price-btn">€560.00</p>
-    <!-- <div class="btn-wishlist">
+    <div class="btn-wishlist">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
         <p>加入收藏</p> 
-    </div> -->
+    </div>
+    <div class="go-wishlist">
+        <a href="">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/check.png" />
+        <p>进入收藏</p> 
+        </a>
+    </div>
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
@@ -72,6 +82,25 @@
             //显示对应的div
             $('.tab').children('div').eq(Index).show().siblings('div').hide();
        });
-    });    
+    });  
+    $( document ).ready(function() {
+        $('.btn-wishlist').click(function(){
+            $(this).animate({opacity:0.2},150)
+            setTimeout(function(){
+                $.ajax({
+                url : 'addwishlist?idproduct=23', 
+                type : 'GET' ,
+                  success: function(data) {   
+                                            $('.btn-wishlist').fadeOut(100);
+                                            $('.go-wishlist').delay(100).fadeIn(200);
+                                              
+            },
+                error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
+            });
+            }, 200);
+        });
+            
+    });
+  
 </script>
 
