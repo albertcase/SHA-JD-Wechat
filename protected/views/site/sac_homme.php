@@ -1,4 +1,11 @@
 <div class="homme">
+    <div class="header">
+        <div class="header-title">
+            <span class="sep"></span>
+            <p class="title">男士包袋</p>
+            <span class="sep"></span>
+        </div>
+    </div>
     <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_homme_p1">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_homme/homme1.jpg" />
         <p class="title">DIMITRI</p>

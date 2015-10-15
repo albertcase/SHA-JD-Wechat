@@ -21,7 +21,7 @@
  	array('nom'=>'BOBI', 'prix'=>'€570.00', 'image'=>'/images/sac_femme/femme1.jpg', 'lien'=>'/site/sac_femme_p2', 'traduction'=>'Bobi羊羔皮铁锈红法棍包'),//15
  	array('nom'=>'GARY S', 'prix'=>'€690.00', 'image'=>'/images/sac_femme/femme5.jpg', 'lien'=>'/site/sac_femme_p4', 'traduction'=>'Gary黑色克奇纳神迷你流苏手袋'),//16
  	array('nom'=>'IGOR', 'prix'=>'€1485.00', 'image'=>'/images/sac_femme/femme6.jpg', 'lien'=>'/site/sac_femme_p5', 'traduction'=>'Igor马达加斯加花蟒皮斜挎包'),//17
- 	array('nom'=>'MOMO', 'prix'=>'€525.00', 'image'=>'/images/sac_femme/femme8.gif', 'lien'=>'/site/sac_femme_p7', 'traduction'=>'Momo鸦片色水蛇皮迷你手袋'),//18
+ 	array('nom'=>'MOMO', 'prix'=>'€525.00', 'image'=>'/images/sac_femme/femme8.jpg', 'lien'=>'/site/sac_femme_p7', 'traduction'=>'Momo鸦片色水蛇皮迷你手袋'),//18
  	array('nom'=>'MARIO', 'prix'=>'€655.00', 'image'=>'/images/sac_femme/femme7.jpg', 'lien'=>'/site/sac_femme_p6', 'traduction'=>'Mario黑色羊羔皮背包式手袋'),//19
  	array('nom'=>'PACO', 'prix'=>'€695.00', 'image'=>'/images/sac_femme/femme9.jpg', 'lien'=>'/site/sac_femme_p8', 'traduction'=>'Paco卡其色山羊皮托特包'),//20
  	array('nom'=>'VIRGILE', 'prix'=>'€785.00', 'image'=>'/images/sac_femme/femme11.jpg', 'lien'=>'/site/sac_femme_p10', 'traduction'=>'Virgile卡其色山羊皮斜挎包'),//21
@@ -35,27 +35,46 @@
 
  	);
 ?>
+<script type="text/javascript">
+var url = "<?php echo Yii::app()->request->baseUrl ?>";
+</script>
+
 <div class="wishlist">
-	<div class="top-wishlist">
-		<p class="title">心愿单</p>
-	</div>
+  <div class="header">
+    <div class="header-title">
+      <span class="sep"></span>
+      <p class="title">心愿单</p>
+      <span class="sep"></span>
+    </div>
+  </div>
 	<ul>
 		<?php
-			foreach ($_SESSION['wishlist'] as $key => $value) {
-				echo '<li>
-						<a href="'.Yii::app()->request->baseUrl .''. $array[ $value ]["lien"].'">
-							<div class="img-wishlist">
-								<img src="'.Yii::app()->request->baseUrl .''. $array[ $value ]["image"].'" />
-							</div>
-							<div class=" text-wishlist">
-								<p>'.$array[ $value ]["nom"].'</p>
-								<p>'.$array[ $value ]["prix"].'</p>
-								<p>'.$array[ $value ]["traduction"].'</p>
-							</div>
-						</a>
-						<img src="'.Yii::app()->request->baseUrl .'/images/remove.png" class="remove" data-key="'. $key .'"/>
+			if ( isset($_SESSION['wishlist']) && count($_SESSION['wishlist']) != 0 ){
+				foreach ($_SESSION['wishlist'] as $key => $value) {
+					echo '<li>
+							<a href="'.Yii::app()->request->baseUrl .''. $array[ $value ]["lien"].'">
+								<div class="img-wishlist">
+									<img src="'.Yii::app()->request->baseUrl .''. $array[ $value ]["image"].'" />
+								</div>
+								<div class=" text-wishlist">
+									<p>'.$array[ $value ]["nom"].'</p>
+									<p>'.$array[ $value ]["prix"].'</p>
+									<p>'.$array[ $value ]["traduction"].'</p>
+								</div>
+							</a>
+							<img src="'.Yii::app()->request->baseUrl .'/images/remove.png" class="remove" data-key="'. $key .'"/>
+						  </li>';
+				};
+			} else {
+				echo '<li class="not">
+						<p class="empty">心愿单里暂无收藏</p>
+						<p class="products">立即到精美作品集挑选您的\'French Lovers\'</p>
+						<span><a href="'.Yii::app()->request->baseUrl .'/site/sac_femme">女士包袋</a></span>
+						<span><a href="'.Yii::app()->request->baseUrl .'/site/sac_homme">男士包袋</a></span>
+						<span><a href="'.Yii::app()->request->baseUrl .'/site/accesoires">精致配饰</a></span>
+						<span><a href="'.Yii::app()->request->baseUrl .'/site/chaussures">女士鞋履</a></span>
 					  </li>';
-			};
+			}
 		?>
 		
 	</ul>
@@ -71,11 +90,20 @@
             	url : 'removewishlist?keyproduct='+ $(this).attr("data-key"),  
             	type : 'GET',
               	success: function(data) {   
-                	_this.parent().remove();
+                	_this.parent().animate({height:0},200, function(){ _this.parent().remove(); checkwishlist(); });
                 },
 				error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
         	});
         });
+
+        function checkwishlist(){
+        	var el = $('.wishlist ul').find('li');
+        	if ( el.length == 0 ){
+        		$('.wishlist ul').html('<li class="not" style="display:none"><p class="empty">心愿单里暂无收藏</p><p class="products">立即到精美作品集挑选您的\'French Lovers\'</p><span><a href="<?php echo Yii::app()->request->baseUrl;?>/site/sac_femme">女士包袋</a></span><span><a href="<?php echo Yii::app()->request->baseUrl;?>/site/sac_homme">男士包袋</a></span><span><a href="<?php echo Yii::app()->request->baseUrl;?>/site/accesoires">精致配饰</a></span><span><a href="<?php echo Yii::app()->request->baseUrl;?>/site/chaussures">女士鞋履</a></span></li>');
+        		$('.not').fadeIn(300);
+        	}
+
+        }
     });
 
 </script>

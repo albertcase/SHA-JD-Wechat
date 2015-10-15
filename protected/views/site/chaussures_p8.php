@@ -1,9 +1,4 @@
 <div class="product">
-    <?php
-    if ( isset($_SESSION["wishlist"]) && count($_SESSION["wishlist"]) != 0)
-        echo '<a href="'.Yii::app()->request->baseUrl .'/site/wishlist" class="btwishlist">心愿单</a>';
-?>    
-    <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -26,16 +21,7 @@
     </div>
     <h1 class="product_title">Suzanne kaki noirci goatskin</h1>
     <p class="price-btn">€455.00</p>
-    <div class="btn-wishlist">
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
-        <p>加入收藏</p> 
-    </div>
-    <div class="go-wishlist">
-        <a href="">
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/check.png" />
-        <p>进入收藏</p> 
-        </a>
-    </div>
+    <?php require_once("btwishlist-inc.php"); ?>
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
@@ -55,6 +41,7 @@
             </ul>  
         </div> -->
     </div>
+    <?php require_once("footer-inc.php"); ?>
 </div>  
 <script>
     var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/Chaussures/Suzanne", {
@@ -82,24 +69,25 @@
             $('.tab').children('div').eq(Index).show().siblings('div').hide();
        
        });
-    }); 
-     $( document ).ready(function() {
-        $('.btn-wishlist').click(function(){
-            $(this).animate({opacity:0.2},150)
-            setTimeout(function(){
+    });
+    $( document ).ready(function() {
+        $('#ctawishlist').click(function(){
+            if ( !$(this).hasClass("wait") && !$(this).hasClass("on") ){
+                $(this).addClass("wait");
+                $(this).find(".wait").animate({width:129},200);
+                setTimeout(function(){
                 $.ajax({
-                url : 'addwishlist?idproduct=11', 
-                type : 'GET' ,
-                  success: function(data) {   
-                                            $('.btn-wishlist').fadeOut(100);
-                                            $('.go-wishlist').delay(100).fadeIn(200);
-                                              
-            },
-                error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
-            });
-            }, 200);
-        });
-            
+                    url : 'addwishlist?idproduct=11', 
+                    type : 'GET' ,
+                    success: function(data) {
+                        $(this).addClass("on");
+                        $('.btn-wishlist.on').animate({width:129},200);                                
+                    },
+                    error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
+                    });
+                }, 300);
+            }
+        });  
     });
    
 </script>

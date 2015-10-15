@@ -9264,3 +9264,185 @@ Stack trace:
 REQUEST_URI=/jd/site/removewishlist?keyproduct=3
 HTTP_REFERER=http://localhost:8888/jd/site/wishlist
 ---
+2015/10/15 06:02:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accessoires" 动作.' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(270): CController->missingAction('accessoires')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): CController->run('accessoires')
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accessoire...')
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/JDWechat/site/accessoires
+---
+2015/10/15 06:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "acessoires" 动作.' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(270): CController->missingAction('acessoires')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): CController->run('acessoires')
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/acessoires')
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/JDWechat/site/acessoires
+---
+2015/10/15 06:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "acessoire" 动作.' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(270): CController->missingAction('acessoire')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): CController->run('acessoire')
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/acessoire')
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/JDWechat/site/acessoire
+---
+2015/10/15 06:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accessoire" 动作.' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(270): CController->missingAction('accessoire')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): CController->run('accessoire')
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accessoire')
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/JDWechat/site/accessoire
+---
+2015/10/15 06:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "accesoire" 动作.' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php:483
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(270): CController->missingAction('accesoire')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): CController->run('accesoire')
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/accesoire')
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/JDWechat/site/accesoire
+---
+2015/10/15 06:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "wishlist"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('wishlist')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/wishlist
+HTTP_REFERER=http://localhost:8888/JDWechat/site/chaussures_p1
+---
+2015/10/15 06:22:40 [error] [php] Undefined index: wishlist (/Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/wishlist.php:44)
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/JDWechat/site/wishlist
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/wishlist.php (44)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php (21)
+in /Users/David/Desktop/DEV/SITES/JDWechat/index.php (19)
+2015/10/15 06:24:46 [error] [php] require_once(/JDWechatsite/footer-inc.php): failed to open stream: No such file or directory (/Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php:58)
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php(141): SiteController->render()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p1()
+#5 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/JDWechat/site/chaussures_p1
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php (58)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php (58)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php (141)
+2015/10/15 06:25:02 [error] [php] require_once(/JDWechat/site/footer-inc.php): failed to open stream: No such file or directory (/Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php:58)
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php(141): SiteController->render()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p1()
+#5 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/JDWechat/site/chaussures_p1
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php (58)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php (58)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php (141)
+2015/10/15 06:25:04 [error] [php] require_once(/JDWechat/site/footer-inc.php): failed to open stream: No such file or directory (/Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php:58)
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php(141): SiteController->render()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionChaussures_p1()
+#5 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/JDWechat/site/chaussures_p1
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php (58)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/chaussures_p1.php (58)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php (141)
+2015/10/15 06:27:17 [error] [php] Undefined index: wishlist (/Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/wishlist.php:44)
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/JDWechat/site/wishlist
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/wishlist.php (44)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php (21)
+in /Users/David/Desktop/DEV/SITES/JDWechat/index.php (19)
+2015/10/15 06:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/btsound3.jpg"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/btsound3...')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/images/btsound3.jpg
+HTTP_REFERER=http://localhost:8888/JDWechat/css/spring/main.css
+---
+2015/10/15 18:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/sac_femme/femme8.gif"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sac_femm...')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/images/sac_femme/femme8.gif
+HTTP_REFERER=http://localhost:8888/JDWechat/site/wishlist
+---
+2015/10/15 18:04:31 [error] [php] Undefined index: wishlist (/Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/wishlist.php:48)
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php(21): SiteController->render()
+#3 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionWishlist()
+#4 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CWebApplication->run()
+REQUEST_URI=/JDWechat/site/wishlist
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/views/site/wishlist.php (48)
+in /Users/David/Desktop/DEV/SITES/JDWechat/protected/controllers/SiteController.php (21)
+in /Users/David/Desktop/DEV/SITES/JDWechat/index.php (19)

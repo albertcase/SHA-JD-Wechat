@@ -1,4 +1,11 @@
 <div class="femme">
+  <div class="header">
+    <div class="header-title">
+      <span class="sep"></span>
+      <p class="title">女士包袋</p>
+      <span class="sep"></span>
+    </div>
+  </div>
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/sac_femme_p1">  
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sac_femme/femme2.jpg" />
     <p class="title">ANATOLE</p>

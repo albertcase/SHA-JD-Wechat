@@ -1,4 +1,11 @@
 <div class="accesoires">
+    <div class="header">
+        <div class="header-title">
+            <span class="sep"></span>
+            <p class="title">精致配饰</p>
+            <span class="sep"></span>
+        </div>
+    </div>
 	<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/accessories_p1" class="picture">	
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/accesoires/julien.gif" />
 		<p class="title">JULIEN</p>
