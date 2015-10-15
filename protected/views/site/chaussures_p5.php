@@ -73,16 +73,16 @@
        });
     });
     $( document ).ready(function() {
-        $('#ctawishlist').click(function(){
-            if ( !$(this).hasClass("wait") && !$(this).hasClass("on") ){
-                $(this).addClass("wait");
-                $(this).find(".wait").animate({width:129},200);
+        $('.btn-wishlist.off').click(function(){
+            if ( !$(this).parent().hasClass("wait") && !$(this).parent().hasClass("on") ){
+                $(this).parent().addClass("wait");
+                $(this).parent().find(".wait").animate({width:129},200);
                 setTimeout(function(){
                 $.ajax({
                     url : 'addwishlist?idproduct=8', 
                     type : 'GET' ,
                     success: function(data) {
-                        $(this).addClass("on");
+                        $(this).parent().addClass("on");
                         $('.btn-wishlist.on').animate({width:129},200);                                
                     },
                     error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
