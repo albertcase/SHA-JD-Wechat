@@ -183,8 +183,27 @@ html,body{
   margin: 22px 0 0 0;
   float: left;
 }
-
-
+.blog .header{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.blog .header .sep{
+  width: 13px;
+  height: 19px;
+  margin: 0;
+  background: none;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.blog .header .sep.prev{
+  left:25px;
+}
+.blog .header .sep.next{
+  right:25px;
+  left: inherit;
+}
 /* femme */
 .femme a:link,.femme a:visited,.femme a:hover {
   color:#000;
@@ -264,7 +283,7 @@ html,body{
 .blog_title{
   font-size: 2em;
   font-weight: bold;
-  margin: 2em 0 ;
+  margin: 4em 0 2em;
 }
 .blog_line{
   width:90%;
