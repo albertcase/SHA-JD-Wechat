@@ -1,4 +1,11 @@
 <div class="homme">
+    <div class="header">
+        <div class="header-title">
+            <span class="sep"></span>
+            <p class="title">女士鞋履</p>
+            <span class="sep"></span>
+        </div>
+    </div>
     <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/chaussures_p1">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/chaussures/chaussures1.jpg" />
         <p class="title">BEA</p>

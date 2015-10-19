@@ -1,7 +1,11 @@
 <div class="blog">
-     <!-- <header>
-        <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/blog4">下一页<span>></span></a>
-    </header> -->
+  <div class="header">
+    <div class="header-title">
+      <span class="sep prev"><a href="<?php echo Yii::app()->request->baseUrl;?>/site/blog2"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/blog-prev.png" width="100%" /></a></span>
+      <p class="title">博客</p>
+      <span class="sep next" style="display:none;"><a href="<?php echo Yii::app()->request->baseUrl;?>/site/blog3"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/blog-next.png" width="100%" /></a></span>
+    </div>
+  </div>
     <h1 class="blog_title">JEROME DREYFUSS踏上<br/>66号公路之旅：第三部</h1>
     <p class="blog_line"></p>
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/blog3/blog1.jpg" width="100%" />

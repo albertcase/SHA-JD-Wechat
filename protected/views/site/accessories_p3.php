@@ -1,5 +1,4 @@
 <div class="product">
-    <span class="btsound"></span>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -17,10 +16,7 @@
     </div>
     <h1 class="product_title">Popoche L turquoise lambskin</h1>
     <p class="price-btn">€195.00</p>
-    <!-- <div class="btn-wishlist">
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/heart.png" />
-        <p>加入收藏</p> 
-    </div> -->
+    <?php require_once("btwishlist-inc.php"); ?>
     <div class="tab">
         <ul class="menu">
             <li class="active">描述</li>
@@ -34,12 +30,8 @@
                 </li>
             </ul>
         </div>
-        <!-- <div class="con2">
-            <ul>    
-                <li>ss</li>
-            </ul>  
-        </div> -->
     </div>
+    <?php require_once("footer-inc.php"); ?>
 </div> 
 <script>
     var mySound = new buzz.sound( "<?php echo Yii::app()->request->baseUrl; ?>/sound/Accessoires/Popoche-l", {
@@ -68,5 +60,25 @@
             $('.tab').children('div').eq(Index).show().siblings('div').hide();
        
        });
-    });    
+    }); 
+    $( document ).ready(function() {
+        $('.btn-wishlist.off').click(function(){
+            if ( !$(this).parent().hasClass("wait") && !$(this).parent().hasClass("on") ){
+                $(this).parent().addClass("wait");
+                $(this).parent().find(".wait").animate({width:129},200);
+                setTimeout(function(){
+                $.ajax({
+                    url : 'addwishlist?idproduct=3', 
+                    type : 'GET' ,
+                    success: function(data) {
+                        $(this).parent().addClass("on");
+                        $('.btn-wishlist.on').animate({width:129},200);                                
+                    },
+                    error: function(xhr, status, error) { console.log('error' + xhr.responseText + status + error); }
+                    });
+                }, 300);
+            }
+        });  
+    });
+   
 </script>
