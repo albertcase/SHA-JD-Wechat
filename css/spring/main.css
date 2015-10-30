@@ -118,6 +118,14 @@ html,body{
   background-size: 67px
 }
 
+.disclaimer{
+  width: 90%;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 13px;
+}
+
 .mod-orient-layer__desc {
   margin-top: 20px;
   font-size: 15px;

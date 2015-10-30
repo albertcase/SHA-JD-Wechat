@@ -6,6 +6,7 @@
             <span class="sep"></span>
         </div>
     </div>
+  <label class="disclaimer">以上显示为我们的部分产品，查看全部系列请移至官网。非常抱歉，暂不支持中国大陆配送服务。欢迎您们前置实体店铺购买。祝您购物愉快！</label>
 	<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/accessories_p1" class="picture">	
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/accesoires/julien.gif" />
 		<p class="title">JULIEN</p>
