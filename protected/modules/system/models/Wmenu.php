@@ -43,7 +43,7 @@ class Wmenu{
 		$rs=$this->_db->createCommand($sql)->select()->queryAll();
 		$ary = array(array('id'=>0,'name'=>'无'));
 		for($i=0;$i<count($rs);$i++){
-			$ary[]=htmlspecialchars($rs[$i]);
+			$ary[]=$rs[$i];
 		}
 		return json_encode($ary);
 	}

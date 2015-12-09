@@ -25,7 +25,7 @@ $cs->registerCssFile($baseUrl.'/css/table.css');
 						<input class="easyui-combobox" name="SystemWmenuEditpName" id="SystemWmenuEditpName" data-options='  
 								valueField: "id",
 								textField: "name",
-								data: <?php echo $pmenu;?>,
+								data: <?php echo htmlspecialchars($pmenu);?>,
 								onSelect: function(record){
 									
 								},
