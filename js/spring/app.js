@@ -7,17 +7,15 @@ $( document ).ready(function() {
     $.getJSON("../data/config.json", function(data){
         dta = data;
         if ( (categorie == "") && (produit == "") )
-            displayWishView(false)
+            displayWishView(false, true)
         else if ( (categorie != "" ) && (produit == "") )
-            displayCategoryView(false);
+            displayCategoryView(false, true);
         else
-            displayProductView(false);
+            displayProductView(false, true);
     });
-
-
 });
 
-function displayCategoryView(isFromClick){
+function displayCategoryView(isFromClick, directurl){
     // affiche vue categorie
     $("#category").css('display','block');
     // remplir la vue categorie
@@ -33,11 +31,11 @@ function displayCategoryView(isFromClick){
     $(".item-large").click(function() {
         close();
         produit = $(this).attr("data-id-article");
-        displayProductView(true);
+        displayProductView(true, false);
     });
 }
 
-function displayWishView(isFromClick){
+function displayWishView(isFromClick, directurl){
     // remplir la vue wishlist
     if ($.cookie('wishlist') != undefined) {
         var tmp = $.cookie('wishlist');
@@ -83,19 +81,25 @@ function displayWishView(isFromClick){
             TweenMax.to( $("#wishlist ul li"), .4, {  delay:.45, opacity:1, ease:"Cubic.easeOut" });
         }
     });
-    $('#wishlist .back').click(function() {
-        close();
+    if ( directurl )
+        $('#wishlist .back').css("display", "none");
+    else {
+        $('#wishlist .back').click(function() {
+            close();
 
-        setTimeout(function(){
-            $('#category').css('display','none');
-            $('#products').css('display','block');
-            open();
-        },2000);
-    });
+            setTimeout(function(){
+                $("#wishlist ul").html("")
+                $('#wishlist').css('display','none');
+                $('#products').css('display','block');
+                open();
+            },2000);
+        });       
+    }
+
 
 }
 
-function displayProductView(isFromClick){
+function displayProductView(isFromClick, directurl){
     // remplir la vue produit
     var slides =  dta.categories[categorie].articles[produit].slider;
 
@@ -150,14 +154,14 @@ function displayProductView(isFromClick){
 
     $('#products #footer .footer-title').click(function(){
         close();
-        displayWishView(true);
+        displayWishView(true, false);
     });
 
     $('#products .back').click(function() {
         close();
 
         setTimeout(function(){
-            displayCategoryView(false);
+            displayCategoryView(false, false);
             $('#products').css('display','none');
             swiper.destroy(true, true);
             $('#products .swiper-wrapper').html("");

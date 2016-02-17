@@ -1,5 +1,5 @@
 <div class="campagne">
-     <p class="video-text"> --- 16春夏 ---</p>
+    <p class="video-text"> --- 16春夏 ---</p>
     <div class="swiper-container">
         <div class="swiper-wrapper"></div>
         <div class="swiper-pagination"></div>
@@ -51,6 +51,12 @@ function initPage(){
                         opacity: 1
                     }, 200);
                 });
+
+                $('.nameprod').html( dta.categories[cat].articles[$(myswiper.slides[0]).attr("data-id")].nom );
+                $('.btn-campagne').html( dta.categories[cat].articles[$(myswiper.slides[0]).attr("data-id")].infos );
+                $('.btn-campagne').attr("href", baseurl+"/site/category?cat=sacfemme&prod="+$(myswiper.slides[0]).attr("data-id") );
+
+                $('.campagne').stop().animate({opacity: 1});
 
             },100);
         },
