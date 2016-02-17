@@ -22,16 +22,16 @@ $cs->registerCssFile($baseUrl.'/css/table.css');
 				<tr>
 					<td style="text-align:right" class="row">父级菜单：</td>
 					<td style="text-align:left" class="row">
-						<input class="easyui-combobox" name="SystemWmenuEditpName" id="SystemWmenuEditpName" data-options="  
-								valueField: 'id',
-								textField: 'name',
-								data: <?php echo htmlspecialchars($pmenu);?>,
+						<input class="easyui-combobox" name="SystemWmenuEditpName" id="SystemWmenuEditpName" data-options='  
+								valueField: "id",
+								textField: "name",
+								data: <?php echo $pmenu;?>,
 								onSelect: function(record){
 									
 								},
 								onLoadSuccess:function(){
-									$('#SystemWmenuEditpName').combobox('setValue', '<?php echo $wmenu["pid"];?>');
-								}">  
+									$("#SystemWmenuEditpName").combobox("setValue", "<?php echo $wmenu["pid"];?>");
+								}'>  
 					</td>
 				</tr>
 				<tr>

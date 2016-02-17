@@ -1,82 +1,61 @@
 <div class="campagne">
-    <div class="bloc-video">
-        <video  width="100%" controls="false" src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/video.mp4"></video>
-    </div>
-     <p class="video-text"> --- 看看书秋冬15 ---</p>
+     <p class="video-text"> --- 16春夏 ---</p>
     <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne1.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne2.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne8.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne9.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne10.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne11.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne13.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/campagne/campagne14.jpg" width="100%" />
-            </div>
-        </div>
+        <div class="swiper-wrapper"></div>
         <div class="swiper-pagination"></div>
     </div>
-     <p> 产品细节: </p>
-     <a href="http://jdwechat.samesamechina.com/site/sac_femme_p2" class="btn-campagne"> Bobi法棍包 </a>
+    <div class="links">
+        <p class="nameprod"> 产品细节: </p>
+        <a href="http://jdwechat.samesamechina.com/site/sac_femme_p2" class="btn-campagne"> Bobi法棍包 </a>
+    </div>
 
 </div>
+<script type="text/javascript">
 
-<script>        
-    var mySwiper = new Swiper ('.swiper-container', {
-        effect:'slide',
-        pagination: '.swiper-pagination'
-    })
-    mySwiper.on('slideChangeStart', function (swiper) {
-        $('.btn-campagne').stop().animate({
-            opacity: 0
-        }, 200, function() {
-            $('.btn-campagne').html( product[swiper.activeIndex][0] );
-            $('.btn-campagne').attr("href", product[swiper.activeIndex][1]);
-        }).animate({
-            opacity: 1
-        }, 200);
-
-        console.log(product[swiper.activeIndex][0] + " :: " + product[swiper.activeIndex][1]);
-    });
-</script>
-<script>
-var product = [
-    ["Bobi法棍包", "http://jdwechat.samesamechina.com/site/sac_femme_p2"],
-    ["Mario背包式手袋", "http://jdwechat.samesamechina.com/site/sac_femme_p6"],
-    ["Mario背包式手袋", "http://jdwechat.samesamechina.com/site/sac_femme_p6"],
-    ["Igor斜挎包", "http://jdwechat.samesamechina.com/site/sac_femme_p5"],
-    ["Mario背包式手袋", "http://jdwechat.samesamechina.com/site/sac_femme_p6"],
-    ["Bobi法棍包", "http://jdwechat.samesamechina.com/site/sac_femme_p2"],
-    ["Bobi法棍包", "http://jdwechat.samesamechina.com/site/sac_femme_p2"],
-    ["Gary迷你流苏手袋", "http://jdwechat.samesamechina.com/site/sac_femme_p4"]
-];
-
+var baseurl = "<?php echo Yii::app()->request->baseUrl; ?>";
+var dta;
+var myswiper;
+var tmp;
 $( document ).ready(function() {
-
-    $('.bloc-video').click(function(){
-        $('video').css("display", "block");
+    $.getJSON("../data/config.json", function(data){
+        dta = data;
+        initPage();
     });
-
-    $('.bloc-video').click(function(){
-        $("video").get(0).play();
-        });
-   
 });
+
+function initPage(){
+    var cat = "sacfemme";
+    var articles = dta.categories[cat].articles;
+    for (var i = 0; i < articles.length; i++) {
+        if ( articles[i].slider.length >= 4 )
+            $(".swiper-wrapper").append('<div class="swiper-slide" data-id="'+i+'"><img src="'+baseurl+articles[i].slider[3]+'" width="100%" /></div>')
+    }
+     
+    $('.swiper-wrapper').waitForImages({
+        finished: function() {
+            setTimeout(function(){
+                myswiper = new Swiper ('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true
+                })
+
+                myswiper.on('slideChangeStart', function (swiper) {
+                    $('.links').stop().animate({
+                        opacity: 0
+                    }, 200, function() {
+                        var num = myswiper.activeIndex
+                        $('.nameprod').html( dta.categories[cat].articles[$(myswiper.slides[num]).attr("data-id")].nom );
+                        $('.btn-campagne').html( dta.categories[cat].articles[$(myswiper.slides[num]).attr("data-id")].infos );
+                        $('.btn-campagne').attr("href", baseurl+"/site/category?cat=sacfemme&prod="+$(myswiper.slides[num]).attr("data-id") );
+                    }).animate({
+                        opacity: 1
+                    }, 200);
+                });
+
+            },100);
+        },
+        waitForAll: true
+    });
+}
 </script>
 
