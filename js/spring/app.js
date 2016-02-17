@@ -156,18 +156,21 @@ function displayProductView(isFromClick, directurl){
         close();
         displayWishView(true, false);
     });
+    if ( directurl )
+        $('#products .back').css("display", "none");
+    else {
+        $('#products .back').click(function() {
+            close();
 
-    $('#products .back').click(function() {
-        close();
-
-        setTimeout(function(){
-            displayCategoryView(false, false);
-            $('#products').css('display','none');
-            swiper.destroy(true, true);
-            $('#products .swiper-wrapper').html("");
-            open();
-        },2000);
-    });
+            setTimeout(function(){
+                $('#category').css('display','block');
+                $('#products').css('display','none');
+                swiper.destroy(true, true);
+                $('#products .swiper-wrapper').html("");
+                open();
+            },2000);
+        });
+    }
 }
 
 function close() {
