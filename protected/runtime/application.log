@@ -9333,3 +9333,27 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/JDWechat/js/spring/maps/swiper.min.js.map
 ---
+2016/02/17 19:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/spring/maps/swiper.min.js.map"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('js/spring/maps/...')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/js/spring/maps/swiper.min.js.map
+---
+2016/02/17 19:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/spring/maps/swiper.min.js.map"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('js/spring/maps/...')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/js/spring/maps/swiper.min.js.map
+---
+2016/02/17 19:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/spring/maps/swiper.min.js.map"。' in /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('js/spring/maps/...')
+#1 /Users/David/Desktop/DEV/SITES/JDWechat/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/David/Desktop/DEV/SITES/JDWechat/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/JDWechat/js/spring/maps/swiper.min.js.map
+---

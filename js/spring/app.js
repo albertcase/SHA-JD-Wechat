@@ -118,7 +118,7 @@ function displayProductView(isFromClick){
                 });
                 if ( isFromClick )
                     open();
-            },1500);
+            },2000);
         },
         waitForAll: true
     });
@@ -157,8 +157,8 @@ function displayProductView(isFromClick){
         close();
 
         setTimeout(function(){
+            displayCategoryView(false);
             $('#products').css('display','none');
-            $('#category').css('display','block');
             swiper.destroy(true, true);
             $('#products .swiper-wrapper').html("");
             open();
@@ -175,7 +175,7 @@ function close() {
         $("#category, #products, #wishlist").css({display:"none"})
     }});
     //REDUCTION DE LA BORDURE ET AFFICHAGE DU LOGO
-    TweenMax.to($("#top-transition, #bottom-transition"),.4,{delay:.4,width:0,left:"100%",ease:"Quart.easeOut",onComplete:function(){ TweenMax.to($("#logo"),.6,{opacity:1}) } });
+    TweenMax.to($("#top-transition, #bottom-transition"),.4,{delay:.5,width:0,left:"100%",ease:"Quart.easeOut",onComplete:function(){ TweenMax.to($("#logo"),.6,{opacity:1}) } });
     
 }
 
